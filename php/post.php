@@ -123,7 +123,7 @@ if (isset($_POST['postcontent'])){
 			echo "<td align=center>";
 			echo "<div id='googleMap2'>";
 			echo "<script src='../js/map.js'></script>";
-			echo "<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDq0j6Mo1A-WewY7mIXsuWeLbUmc71KMIg&callback=postMap'></script>";
+			echo "<script src='https://maps.googleapis.com/maps/api/js?key=<insert key>&callback=postMap'></script>";
 			echo "</div>";
 			echo "</td>";
 			echo "<td valign='top'>";
