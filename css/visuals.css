@@ -1,0 +1,128 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: lightgrey;
+	
+}
+
+.loginform, .registrationform{
+	margin-left: 25%;
+	margin-right: 25%;
+	width: auto;
+	background-color: white;
+	color: black;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 6px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.loginform input#logininput, .registrationform input#registrationinput{
+	margin-bottom: 2%;
+}
+
+.header, .footer{
+	background-color: lightskyblue;
+	width: 100% !important;
+}
+
+
+.footer table td, .header table td{
+	border-right: 1px solid black;
+	border-collapse: collapse;
+}
+
+.header table td {
+ 	padding-left: 2em;
+ 	padding-right: 2em;
+	text-align: center;
+}
+
+.header table td:nth-child(1){
+	min-width: 86%;
+}
+.footer table td:nth-child(6), .header table td:nth-child(1), .header table td:nth-child(5){
+	border-right: none;
+}
+
+.footer table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.footer table td:nth-child(1){
+	padding-left: 5%;
+}
+
+.footer table td:nth-child(2), .footer table td:nth-child(3), .footer table td:nth-child(4), .footer table td:nth-child(5){
+	width:22%;
+	padding-left: 1em;
+	padding-right: 1em;	
+}
+
+.articleList, .article, .post{
+	padding-left: 2.5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: auto;
+	background-color: white;
+	color: black;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.articleList > table:nth-child(1){
+	border-top: 0px;
+}
+
+.article input[type="textbox"], textarea{
+	width: 90%;
+}
+
+#article{
+	display: none;
+}
+
+#articlelnk{
+	display: block;
+}
+
+#googleMap{
+	display: none;
+	width: 90%;
+	height: 300px;
+}
+
+#googleMap2{
+	height: 300px;
+}
+
+#eventDateTime{
+	padding-left: 20%;
+}
+
+#eventDiv{
+	display: none;
+}
+
+#commentTable, #commentTable td {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+.articleList table{
+	width: 95%;
+	border-top: 2px solid black;
+}
+
+.post table{
+	width: 95%;
+}
